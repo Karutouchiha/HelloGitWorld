@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = -1;
-        boolean bol = true;
+        boolean bool = true;
         int b = -1;
 
             System.out.print("Bitte geben sie eine Zahl ein:");
@@ -16,7 +16,7 @@ public class Main {
         }
         System.out.print("Bitte geben sie einen operanten (- = false oder + = true) ein:");
         try {
-            bol = scanner.nextBoolean();
+            bool = scanner.nextBoolean();
         } catch (Exception ex) {
             System.out.println("Ihre eingabe enhält nicht zugelasse Zeichen.");
         }
@@ -27,7 +27,7 @@ public class Main {
             System.out.println("Ihre eingabe enhält nicht zugelasse Zeichen.");
         }
         int e;
-        if (bol)
+        if (bool)
         {
             e = a+b;
         }

@@ -12,19 +12,19 @@ public class Main {
         try {
             a = scanner.nextInt();
         } catch (Exception ex) {
-            System.out.println("Ihre eingabe enhält nicht zugelasse Zeichen");
+            System.out.println("Ihre eingabe enhält nicht zugelasse Zeichen.");
         }
         System.out.print("Bitte geben sie einen operanten (- = false oder + = true) ein:");
         try {
             bol = scanner.nextBoolean();
         } catch (Exception ex) {
-            System.out.println("Ihre eingabe enhält nicht zugelasse Zeichen");
+            System.out.println("Ihre eingabe enhält nicht zugelasse Zeichen.");
         }
         System.out.print("Bitte geben sie eine zweite Zahl ein:");
         try{
             b = scanner.nextInt();
         } catch (Exception ex) {
-            System.out.println("Ihre eingabe enhält nicht zugelasse Zeichen");
+            System.out.println("Ihre eingabe enhält nicht zugelasse Zeichen.");
         }
         int e;
         if (bol)
